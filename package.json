@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "debug"
+  },
+  "author": "Etuldan",
+  "license": "ISC",
+  "dependencies": {
+    "@datalust/winston-seq": "^1.0.2",
+    "discord.js": "^14.6.0",
+    "mongodb": "^4.11.0",
+    "winston": "^3.8.2"
+  }
+}

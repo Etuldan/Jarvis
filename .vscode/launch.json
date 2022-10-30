@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\index.js"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Run Bot",
+            "request": "launch",
+            "command": "node index.js",
+            "cwd": "${workspaceFolder}"
+        }
+        {
+            "type": "node-terminal",
+            "name": "Deploy Commands",
+            "request": "launch",
+            "command": "node deploy-commands.js",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

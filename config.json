@@ -1,0 +1,14 @@
+{
+    "discord" : {
+        "token": "OTY0ODI4MDc1MDkzMjY2NTAy.GrwpaO.V21xT85AipruC-SrNH6z2HlWcX4MCqc5TSgmC8",
+        "clientId": "964828075093266502",
+        "guildId": "795775842587377704"
+    },
+    "mongo": {
+        "uri": "mongodb://localhost:27017/"
+    },
+    "seq" : {
+        "uri": "http://localhost:5341", 
+        "APIkey" :"oYFnd77EORmhC4URT4ly"
+    }
+}
